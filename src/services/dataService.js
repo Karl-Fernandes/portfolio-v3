@@ -209,7 +209,7 @@ export default class DataService {
         icon: 'inetcfg_2301',
         content: {
           emailText:
-            'If you want to hire me or invite to a project, just email me on ',
+            'If you want to hire or invite me to a project, just email me on ',
           email: 'karl@fernandes.me.uk',
           socialText: 'Or you can reach me out through social media:',
           social: [
