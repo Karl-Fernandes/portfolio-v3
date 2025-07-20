@@ -70,6 +70,7 @@ function Desktop() {
                             window.open(item.url, '_blank');
                         }}
                         isMobile={isMobile}
+                        title="Bin - Karl Fernandes" 
                     />
                 )
               }
