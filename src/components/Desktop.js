@@ -70,7 +70,8 @@ function Desktop() {
                             window.open(item.url, '_blank');
                         }}
                         isMobile={isMobile}
-                        title="Bin - Karl Fernandes" 
+                        title="Bin - Karl Fernandes"
+                        icon="bin" 
                     />
                 )
               }
