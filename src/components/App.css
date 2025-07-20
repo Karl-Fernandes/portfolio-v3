@@ -1,0 +1,9 @@
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('../assets/windowsbackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
