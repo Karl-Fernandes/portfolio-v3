@@ -41,7 +41,7 @@ function Resume({ content }) {
           <br />
         </div>
       ))}
-      <StyledLink href={resumeLink} download>
+      <StyledLink href="/resume.pdf" download="KarlFernandes_Resume.pdf">
         <Button style={{ fontSize: '14px' }} className="pointer">
           Download Resume
         </Button>
