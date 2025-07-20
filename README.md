@@ -7,4 +7,4 @@ My portfolio website in old-school Windows95 style [karlfernandes.com](https)
 * Winamp player in web [Webamp](https://github.com/captbaritone/webamp)
 
 ## Preview
-![Screenshot]()
+![Screenshot](https://user-images.githubusercontent.com/27154217/83787409-bd86fb80-a661-11ea-9a21-93a732967b07.png)
