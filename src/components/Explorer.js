@@ -10,10 +10,10 @@ const FilesWrapper = styled.div`
 `;
 
 
-function Explorer({ items, closeExplorer, openNotepad, isMobile, title }) {
+function Explorer({ items, closeExplorer, openNotepad, isMobile, title, icon }) {
     return (
         <Modal
-            icon="windows_explorer"
+            icon={icon || "windows_explorer"} 
             title={title || "Explorer - Karl Fernandes"} 
             closeModal={closeExplorer}
             style={{

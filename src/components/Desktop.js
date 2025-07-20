@@ -71,7 +71,7 @@ function Desktop() {
                         }}
                         isMobile={isMobile}
                         title="Bin - Karl Fernandes"
-                        icon="bin" 
+                        icon="appwiz_1503" 
                     />
                 )
               }
