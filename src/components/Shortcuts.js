@@ -11,34 +11,54 @@ const StyledShorcut = styled.div`
 `;
 
 function Shortcuts({ openExplorer, openBin }) {
+    // Track drag state for each shortcut
+    let explorerDragged = false;
+    let mediaDragged = false;
+    let binDragged = false;
+
     return (
         <div>
-            <Draggable>
+            <Draggable
+                onStart={() => { explorerDragged = false; }}
+                onDrag={() => { explorerDragged = true; }}
+            >
                 <StyledShorcut>
                     <Icon
                         className="pointer"
                         name="windows_explorer"
-                        onClick={() => openExplorer()}
+                        onClick={() => {
+                            if (!explorerDragged) openExplorer();
+                        }}
                     />
                     <div>Explorer</div>
                 </StyledShorcut>
             </Draggable>
-            <Draggable>
+            <Draggable
+                onStart={() => { mediaDragged = false; }}
+                onDrag={() => { mediaDragged = true; }}
+            >
                 <StyledShorcut>
                     <Icon
                         className="pointer"
                         name="media_cd"
-                        onClick={() => startWebamp()}
+                        onClick={() => {
+                            if (!mediaDragged) startWebamp();
+                        }}
                     />
                     <div>Media</div>
                 </StyledShorcut>
             </Draggable>
-            <Draggable>
+            <Draggable
+                onStart={() => { binDragged = false; }}
+                onDrag={() => { binDragged = true; }}
+            >
                 <StyledShorcut>
                     <Icon
                         className="pointer"
                         name="appwiz_1503"
-                        onClick={() => openBin()}
+                        onClick={() => {
+                            if (!binDragged) openBin();
+                        }}
                     />
                     <div style={{ marginLeft: '6px' }}>Bin</div>
                 </StyledShorcut>
