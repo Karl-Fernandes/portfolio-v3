@@ -1,6 +1,6 @@
 export default class DataService {
   _data = {
-    projectRepo: 'http://github.com/karl-Fernandes/portfolio',
+    projectRepo: 'http://github.com/karl-Fernandes/portfolio-v3',
     react95Repo: 'https://github.com/React95/React95',
     binItems: [
       {
