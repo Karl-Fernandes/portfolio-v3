@@ -23,7 +23,14 @@ function Taskbar() {
                     <List.Item className="pointer" icon="folder_file">
                         <Link href={projectRepo} target="_blank">Repo</Link>
                     </List.Item>
-                    
+                    <List.Divider />
+                    <List.Item
+                        className="pointer"
+                        icon="systray_306"
+                        onClick={() => window.close()}
+                    >
+                        Shutdown
+                    </List.Item>
                 </List>
             }
         />
