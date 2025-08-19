@@ -7,7 +7,7 @@ const StyledLink = styled.a`
 `;
 
 function Resume({ content }) {
-  const { workExperience, education, resumeLink } = content;
+  const { workExperience, education} = content;
 
   return (
     <div>

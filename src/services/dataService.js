@@ -220,11 +220,7 @@ export default class DataService {
             {
               name: 'FaGithub',
               link: 'https://github.com/Karl-Fernandes',
-            },
-            {
-              name: 'FaInstagram',
-              link: 'https://www.instagram.com/karl_fernandes_/',
-            },
+            }
           ],
         },
       },
